@@ -8,7 +8,7 @@ Currently only supports retrieving and creating discussions.
 
 Add this line to your application's Gemfile:
 
-    gem 'tender-api', require: 'tender'
+    gem 'tender-api'
 
 And then execute:
 
