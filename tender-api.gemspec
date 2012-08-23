@@ -7,10 +7,10 @@ Gem::Specification.new do |gem|
   gem.name          = "tender-api"
   gem.version       = Tender::VERSION
   gem.authors       = ["Michael Saffitz"]
-  gem.email         = ["m@saffitz.com"]
+  gem.email         = ["mike@apptentive.com"]
   gem.description   = %q{Ruby API wrapper for Tender - http://tenderapp.com}
   gem.summary       = %q{Ruby API wrapper for Tender - http://tenderapp.com}
-  gem.homepage      = ""
+  gem.homepage      = "http://github.com/apptentive/tender-api"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
