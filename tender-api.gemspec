@@ -8,9 +8,10 @@ Gem::Specification.new do |gem|
   gem.version       = Tender::VERSION
   gem.authors       = ["Michael Saffitz"]
   gem.email         = ["mike@apptentive.com"]
-  gem.description   = %q{Ruby API wrapper for Tender - http://tenderapp.com}
   gem.summary       = %q{Ruby API wrapper for Tender - http://tenderapp.com}
-  gem.homepage      = "http://github.com/apptentive/tender-api"
+  gem.description   = gem.summary
+  gem.homepage      = "https://github.com/apptentive/tender-api"
+  gem.license       = 'MIT'
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
@@ -19,7 +20,6 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency('faraday', '~> 0.8.8')
   gem.add_dependency('faraday_middleware', '~> 0.9.0')
-
 
   gem.add_development_dependency "rake"
 end
